@@ -16,13 +16,3 @@ Depends: ${misc:Depends},
 Description: Adobe Font Development Kit for OpenType
  Adobe Font Development Kit for OpenType (AFDKO) is a set of tools for
  building OpenType font files from PostScript and TrueType font data.
-
-Package: afdko-dbg
-Architecture: any
-Depends: ${misc:Depends},
-         afdko (= ${binary:Version}),
-Description: Debug symbols for Adobe Font Development Kit for OpenType
- Adobe Font Development Kit for OpenType (AFDKO) is a set of tools for
- building OpenType font files from PostScript and TrueType font data.
- .
- This package contains debug symbols for afdko.
