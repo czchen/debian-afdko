@@ -10,3 +10,6 @@ override_dh_auto_build:
 override_dh_auto_install:
 	mkdir -p debian/tmp/usr/bin
 	cp FDK/Tools/linux/* debian/tmp/usr/bin
+
+override_dh_strip:
+	dh_strip --dbg-package=afdko-dbg
