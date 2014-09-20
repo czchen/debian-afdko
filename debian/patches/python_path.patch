@@ -1,0 +1,13 @@
+Description: Set python path to system python
+---
+--- afdko-0~20140920.orig/FDK/Tools/linux/setFDKPaths
++++ afdko-0~20140920/FDK/Tools/linux/setFDKPaths
+@@ -1,7 +1,7 @@
+ 
+ AFDKO_EXE_PATH="${cmdDirPath}"
+ 
+-AFDKO_Python="${cmdDirPath}"/Python/bin/python2.7
++AFDKO_Python=/usr/bin/python2.7
+ 
+ AFDKO_Scripts="${AFDKO_EXE_PATH}"/../SharedData/FDKScripts
+ 
