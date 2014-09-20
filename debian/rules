@@ -6,3 +6,7 @@
 
 override_dh_auto_build:
 	cd FDK/Tools/Programs && ./BuildAllLinux.sh
+
+override_dh_auto_install:
+	mkdir -p debian/tmp/usr/bin
+	cp FDK/Tools/linux/* debian/tmp/usr/bin
