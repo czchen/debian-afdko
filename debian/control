@@ -1,0 +1,18 @@
+Source: afdko
+Section: fonts
+Priority: optional
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/adobe-type-tools/afdko
+#Vcs-Git: git://anonscm.debian.org/collab-maint/afdko.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/afdko.git;a=summary
+
+Package: afdko
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Adobe Font Development Kit for OpenType
+ Adobe Font Development Kit for OpenType (AFDKO) is a set of tools for
+ building OpenType font files from PostScript and TrueType font data.
