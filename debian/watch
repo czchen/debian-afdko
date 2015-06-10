@@ -1,0 +1,2 @@
+version=3
+https://github.com/adobe-type-tools/afdko/releases .*/Build\.(\d\S*)\.tar\.gz
